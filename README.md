@@ -1,4 +1,4 @@
-# Booru Author Links
+# artist-dl
 
 A CLI utility for processing author post URLs from popular booru sites (reactor.cc, yande.re, konachan.com, e621.net, rule34.xxx).
 
