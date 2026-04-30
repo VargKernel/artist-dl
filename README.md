@@ -4,8 +4,6 @@ A CLI utility for processing author post URLs from popular booru sites (reactor.
 
 It extracts authors from URLs, generates site-specific links, downloads pages with caching, and verifies availability.
 
----
-
 ## Features
 
 * Accepts single or multiple URLs from CLI
@@ -26,8 +24,6 @@ It extracts authors from URLs, generates site-specific links, downloads pages wi
 * Detailed logging (console + optional file)
 * Uses persistent HTTP session for performance
 
----
-
 ## Supported Sites
 
 1. reactor.cc  
@@ -35,8 +31,6 @@ It extracts authors from URLs, generates site-specific links, downloads pages wi
 3. e621.net  
 4. rule34.xxx  
 5. konachan.com  
-
----
 
 ## Installation
 
@@ -53,8 +47,6 @@ requests>=2.33.0
 tqdm>=4.66.0 (optional)
 ```
 
----
-
 ## Usage
 
 ### Syntax
@@ -62,8 +54,6 @@ tqdm>=4.66.0 (optional)
 ```bash
 python3 artist-dl.py [OPTIONS] URL [URL...]
 ```
-
----
 
 ### Examples
 
@@ -74,8 +64,6 @@ python3 artist-dl.py -i input_urls.txt
 python3 artist-dl.py -i input_urls.txt -o output_links.txt -f failed_links.txt -l run.log
 ```
 
----
-
 ## Options
 
 * `-h`, `--help`
@@ -85,8 +73,6 @@ python3 artist-dl.py -i input_urls.txt -o output_links.txt -f failed_links.txt -
 * `-f`, `--failed-file FILE` — failed attempts log (optional)
 * `-l`, `--log-file FILE` — execution log (optional)
 
----
-
 ## Files
 
 * `input_urls.txt` — source URLs (one per line)
@@ -94,16 +80,12 @@ python3 artist-dl.py -i input_urls.txt -o output_links.txt -f failed_links.txt -
 * `failed_links.txt` — failed / not found results
 * `run.log` — execution logs (optional)
 
----
-
 ## Output Behavior
 
 | Mode     | Result          |
 | -------- | --------------- |
 | `-o` set | write to file   |
 | omitted  | print to stdout |
-
----
 
 ## Cache
 
