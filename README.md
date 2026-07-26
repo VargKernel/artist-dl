@@ -92,3 +92,7 @@ python3 artist-dl.py -i input_urls.txt -o output_links.txt -f failed_links.txt -
 Pages are stored in `.cache/` using hashed filenames.
 
 Cached results are reused automatically across runs.
+
+## License
+
+This project is licensed under the **GNU General Public License v3.0** — see the [LICENSE](LICENSE) file for details.
